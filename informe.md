@@ -144,7 +144,7 @@ docker cp nginx2:/usr/share/nginx/html/index.html ./index2.html
 ### Paso 5: Edición y personalización de los archivos HTML
 Utilizando un editor de texto (como `nano`), se personalizan ambos ficheros:
 
-1. **`index1.html` (Información Institucional):** Se incorporan los datos del Instituto Tecnológico Superior Sudamericano, la carrera de Desarrollo de Software, ubicación (Loja, Ecuador) y descripción académica del instituto.
+1. **`index1.html` (Información Institucional):** Se incorporan los datos del Instituto Tecnológico Superior Sudamericano, la carrera de Desarrollo de Software, ubicación (Cuenca, Ecuador) y descripción académica del instituto.
 2. **`index2.html` (Información Personal del Estudiante):** Se plasman los datos de Andrés Gutiérrez, cuarto ciclo de Desarrollo de Software, enlaces a su repositorio GitHub y competencias tecnológicas aprendidas (Docker, Linux, Nginx).
 
 ### Paso 6: Copia de los archivos personalizados a los contenedores
