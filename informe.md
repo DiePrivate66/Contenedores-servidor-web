@@ -215,7 +215,7 @@ Servidor web que exhibe la información institucional del Instituto Tecnológico
 Servidor web que despliega la tarjeta de perfil y presentación del estudiante Andrés Gutiérrez, nivel académico y tecnologías aplicadas:
 
 <p align="center">
-  <img src="img/nginx2_screenshot.png" alt="Figura 9-2. Captura del servidor web nginx2 con información personal" width="800" />
+  <img src="img/nginx2_personal_screenshot.png" alt="Figura 9-2. Captura del servidor web nginx2 con información personal" width="800" />
 </p>
 <p align="center"><em>Figura 9-2. Servidor nginx2 (http://localhost:8090) desplegando la página personal del estudiante Andrés Gutiérrez.</em></p>
 

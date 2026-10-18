@@ -3,7 +3,7 @@
 [![Práctica](https://img.shields.io/badge/Práctica-No.%201-blue.svg)](informe.md)
 [![Docker](https://img.shields.io/badge/Docker-v28.5.2-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Nginx](https://img.shields.io/badge/Nginx-Latest-009639?logo=nginx&logoColor=white)](https://nginx.org/)
-[![Instituto](https://img.shields.io/badge/Instituto-ITSS%20Sudamericano-gold.svg)](https://sudamericano.edu.ec/)
+[![Instituto](https://img.shields.io/badge/Instituto-Tecnológico%20Sudamericano-gold.svg)](https://sudamericano.edu.ec/)
 [![Autor](https://img.shields.io/badge/Autor-Andrés%20Gutiérrez-darkblue.svg)](https://github.com/DiePrivate66)
 
 Repositorio oficial de la **Práctica No. 1 — Tarea autónoma semana 1: Crear y personalizar dos servidores web con Nginx usando Docker**.
@@ -37,7 +37,7 @@ Contenedores-servidor-web/
 └── img/                             # Evidencias y diagramas
     ├── docker_architecture.png      # Diagrama de arquitectura de contenedores
     ├── nginx1_cuenca_screenshot.png # Captura de pantalla del servidor institucional (8089)
-    └── nginx2_screenshot.png        # Captura de pantalla del servidor personal (8090)
+    └── nginx2_personal_screenshot.png # Captura de pantalla del servidor personal (8090)
 ```
 
 ---
@@ -67,7 +67,7 @@ docker ps
 
 | Servidor | Puerto Host | Puerto Contenedor | Contenido | URL Local |
 |---|---|---|---|---|
-| **nginx1** | `8089` | `80` | Información institucional ITSS Sudamericano | [http://localhost:8089](http://localhost:8089) |
+| **nginx1** | `8089` | `80` | Información institucional Tecnológico Sudamericano | [http://localhost:8089](http://localhost:8089) |
 | **nginx2** | `8090` | `80` | Información personal de Andrés Gutiérrez | [http://localhost:8090](http://localhost:8090) |
 
 ---
@@ -88,4 +88,4 @@ El estudiante grabará este archivo con su propia voz para adjuntarlo a la entre
 ![nginx1](img/nginx1_cuenca_screenshot.png)
 
 ### Servidor 2 (Personal - Puerto 8090)
-![nginx2](img/nginx2_screenshot.png)
+![nginx2](img/nginx2_personal_screenshot.png)
