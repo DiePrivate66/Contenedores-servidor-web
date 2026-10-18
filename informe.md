@@ -205,7 +205,7 @@ Se logró el despliegue exitoso y concurrente de dos servidores web Nginx comple
 Servidor web que exhibe la información institucional del Instituto Tecnológico Superior Sudamericano, su carrera y misión educativa:
 
 <p align="center">
-  <img src="img/nginx1_screenshot.png" alt="Figura 9-1. Captura del servidor web nginx1 con información institucional" width="800" />
+  <img src="img/nginx1_cuenca_screenshot.png" alt="Figura 9-1. Captura del servidor web nginx1 con información institucional" width="800" />
 </p>
 <p align="center"><em>Figura 9-1. Servidor nginx1 (http://localhost:8089) desplegando la página institucional del Instituto Tecnológico Superior Sudamericano.</em></p>
 

@@ -36,7 +36,7 @@ Contenedores-servidor-web/
 ├── audio_aprendizaje_semana1.mp3    # (Opcional en repo) Audio de 60s grabado con voz propia
 └── img/                             # Evidencias y diagramas
     ├── docker_architecture.png      # Diagrama de arquitectura de contenedores
-    ├── nginx1_screenshot.png        # Captura de pantalla del servidor institucional (8089)
+    ├── nginx1_cuenca_screenshot.png # Captura de pantalla del servidor institucional (8089)
     └── nginx2_screenshot.png        # Captura de pantalla del servidor personal (8090)
 ```
 
@@ -85,7 +85,7 @@ El estudiante grabará este archivo con su propia voz para adjuntarlo a la entre
 ## 🖼️ Capturas de Resultados
 
 ### Servidor 1 (Institucional - Puerto 8089)
-![nginx1](img/nginx1_screenshot.png)
+![nginx1](img/nginx1_cuenca_screenshot.png)
 
 ### Servidor 2 (Personal - Puerto 8090)
 ![nginx2](img/nginx2_screenshot.png)
