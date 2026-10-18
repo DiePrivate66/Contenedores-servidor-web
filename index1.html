@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Tecnológico Superior Sudamericano</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            width: 90%;
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 20px;
+            padding: 50px;
+            text-align: center;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+        }
+        .logo-area {
+            margin-bottom: 30px;
+        }
+        .logo-icon {
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #e0c97f;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #a8c6e8;
+            margin-bottom: 30px;
+        }
+        .divider {
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, #e0c97f, #f4a261);
+            margin: 0 auto 30px;
+            border-radius: 2px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        .info-item {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(224,201,127,0.3);
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #e0c97f;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .info-value {
+            font-size: 0.95rem;
+            color: #dce8f5;
+            font-weight: 500;
+        }
+        .description {
+            background: rgba(224,201,127,0.1);
+            border-left: 4px solid #e0c97f;
+            border-radius: 0 10px 10px 0;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #c8ddf0;
+        }
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #e0c97f, #f4a261);
+            color: #1a1a2e;
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 8px 20px;
+            border-radius: 50px;
+            letter-spacing: 1px;
+        }
+        .server-label {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-area">
+            <div class="logo-icon">🎓</div>
+            <h1>Instituto Tecnológico<br>Superior Sudamericano</h1>
+            <h2>Carrera de Desarrollo de Software</h2>
+        </div>
+        <div class="divider"></div>
+        <div class="info-grid">
+            <div class="info-item">
+                <div class="info-label">📍 Ubicación</div>
+                <div class="info-value">Loja, Ecuador</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">🏛️ Tipo</div>
+                <div class="info-value">Instituto de Educación Superior</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">📚 Carrera</div>
+                <div class="info-value">Desarrollo de Software</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">🗓️ Modalidad</div>
+                <div class="info-value">Presencial / En Línea</div>
+            </div>
+        </div>
+        <div class="description">
+            El <strong>Instituto Tecnológico Superior Sudamericano</strong> es una institución de educación superior dedicada a la formación de profesionales técnicos en diversas áreas del conocimiento. La carrera de <strong>Desarrollo de Software</strong> forma estudiantes con competencias en programación, bases de datos, redes, sistemas operativos y tecnologías emergentes como contenedores Docker y servicios web.
+        </div>
+        <div class="badge">🌐 Servidor Nginx 1 — Puerto 8089</div>
+        <div class="server-label">Práctica No.1 · Semana 1 · Contenedores con Docker</div>
+    </div>
+</body>
+</html>
