@@ -221,13 +221,10 @@ Servidor web que despliega la tarjeta de perfil y presentación del estudiante A
 
 ---
 
-### Archivo de Audio Adjunto (.mp3 de 60 segundos)
-En cumplimiento con los requerimientos de la entrega, se adjunta al repositorio el archivo de audio:
-- **Nombre del archivo:** [`audio_aprendizaje_semana1.mp3`](audio_aprendizaje_semana1.mp3)
-- **Duración aproximada:** 60 segundos
-- **Formato:** MPEG Audio Layer III (MP3), 64 kbps, 24 kHz
+### Entrega de Audio Requerido (.mp3 de 60 segundos)
+En cumplimiento con las instrucciones de la entrega (*"Adjunta a esta entrega un archivo de audio .mp3 de 60 segundos con tus palabras lo que has aprendido en esta semana"*), este audio es grabado directamente por el estudiante Andrés Gutiérrez con su propia voz para ser adjuntado a la plataforma de entrega académica (y opcionalmente ubicado en este repositorio como `audio_aprendizaje_semana1.mp3`).
 
-#### Transcripción del Audio:
+#### Guion y Transcripción de la Grabación (Lectura estimada: 60 segundos):
 > *"Hola, estimado docente y compañeros. Mi nombre es Andrés Gutiérrez, estudiante de cuarto ciclo de la carrera de Desarrollo de Software en el Instituto Tecnológico Superior Sudamericano. En esta primera semana de la asignatura de Tendencias de Tecnología, aprendí los conceptos fundamentales de la virtualización ligera con Docker y el despliegue de servidores web Nginx. Durante la práctica desplegué dos contenedores independientes en segundo plano: el primero llamado nginx1 en el puerto 8089, y el segundo llamado nginx2 en el puerto 8090. Lo más importante fue aprender a manipular archivos en Linux con el comando docker cp, el cual me permitió extraer el archivo index.html original del contenedor al sistema anfitrión, editarlo con nano personalizando la información institucional y mis datos personales, y luego copiarlo nuevamente al contenedor en tiempo de ejecución sin detener el servicio. Con esta práctica comprobé la enorme ventaja que ofrece Docker en portabilidad, aislamiento y rapidez para el despliegue de aplicaciones web en el desarrollo de software. Muchas gracias."*
 
 ---

@@ -33,7 +33,7 @@ Contenedores-servidor-web/
 ├── README.md                        # Presentación y guía rápida de reproducción
 ├── index1.html                      # Página institucional personalizada (nginx1)
 ├── index2.html                      # Página personal del estudiante (nginx2)
-├── audio_aprendizaje_semana1.mp3    # Audio de 60 segundos con lo aprendido en la semana
+├── audio_aprendizaje_semana1.mp3    # (Opcional en repo) Audio de 60s grabado con voz propia
 └── img/                             # Evidencias y diagramas
     ├── docker_architecture.png      # Diagrama de arquitectura de contenedores
     ├── nginx1_screenshot.png        # Captura de pantalla del servidor institucional (8089)
@@ -74,10 +74,11 @@ docker ps
 
 ## 🎙️ Audio de Aprendizaje (60 Segundos)
 
-Se incluye el archivo de audio requerido con las reflexiones de la semana:
-* Archivo: [`audio_aprendizaje_semana1.mp3`](audio_aprendizaje_semana1.mp3)
-* Duración: ~60 segundos
-* Formato: MP3
+El estudiante grabará este archivo con su propia voz para adjuntarlo a la entrega en la plataforma académica, según las instrucciones de la práctica.
+
+* **Guion de grabación:** Disponible en [informe.md](informe.md#guion-y-transcripción-de-la-grabación-lectura-estimada-60-segundos)
+* **Duración requerida:** ~60 segundos
+* **Formato sugerido:** Archivo `.mp3` para adjuntar en la entrega académica.
 
 ---
 
